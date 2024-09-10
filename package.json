@@ -4,7 +4,8 @@
   "description": "All projects are here",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
   },
   "author": "rajan mishra",
   "license": "ISC",
